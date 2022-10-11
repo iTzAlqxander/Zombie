@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083FA57628F5FD0000665212 /* InventoryTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083FA57528F5FD0000665212 /* InventoryTutorial.swift */; };
+		083FA57828F5FD1600665212 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083FA57728F5FD1600665212 /* Inventory.swift */; };
 		085510FA28ECBF8D005E7DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085510F928ECBF8D005E7DCC /* AppDelegate.swift */; };
 		085510FC28ECBF8D005E7DCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085510FB28ECBF8D005E7DCC /* SceneDelegate.swift */; };
 		085510FE28ECBF8D005E7DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085510FD28ECBF8D005E7DCC /* ViewController.swift */; };
@@ -14,9 +16,12 @@
 		0855110428ECBF8D005E7DCC /* Zombie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0855110228ECBF8D005E7DCC /* Zombie.xcdatamodeld */; };
 		0855110628ECBF91005E7DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0855110528ECBF91005E7DCC /* Assets.xcassets */; };
 		0855110928ECBF91005E7DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0855110728ECBF91005E7DCC /* LaunchScreen.storyboard */; };
+		08C2D92E28F0B7E900608254 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D92D28F0B7E900608254 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083FA57528F5FD0000665212 /* InventoryTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTutorial.swift; sourceTree = "<group>"; };
+		083FA57728F5FD1600665212 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 		085510F628ECBF8D005E7DCC /* Zombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zombie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085510F928ECBF8D005E7DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		085510FB28ECBF8D005E7DCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		0855110528ECBF91005E7DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0855110828ECBF91005E7DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0855110A28ECBF91005E7DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C2D92D28F0B7E900608254 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			children = (
 				085510F928ECBF8D005E7DCC /* AppDelegate.swift */,
 				085510FB28ECBF8D005E7DCC /* SceneDelegate.swift */,
+				083FA57728F5FD1600665212 /* Inventory.swift */,
 				085510FD28ECBF8D005E7DCC /* ViewController.swift */,
+				08C2D92D28F0B7E900608254 /* ViewController2.swift */,
+				083FA57528F5FD0000665212 /* InventoryTutorial.swift */,
 				085510FF28ECBF8D005E7DCC /* Main.storyboard */,
 				0855110528ECBF91005E7DCC /* Assets.xcassets */,
 				0855110728ECBF91005E7DCC /* LaunchScreen.storyboard */,
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C2D92E28F0B7E900608254 /* ViewController2.swift in Sources */,
 				085510FE28ECBF8D005E7DCC /* ViewController.swift in Sources */,
+				083FA57828F5FD1600665212 /* Inventory.swift in Sources */,
 				0855110428ECBF8D005E7DCC /* Zombie.xcdatamodeld in Sources */,
 				085510FA28ECBF8D005E7DCC /* AppDelegate.swift in Sources */,
+				083FA57628F5FD0000665212 /* InventoryTutorial.swift in Sources */,
 				085510FC28ECBF8D005E7DCC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
